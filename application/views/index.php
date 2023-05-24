@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-				<img src="<?php echo base_url();?>assets/img/hero-img.png" class="img-fluid" alt="" width="500px">
+				<img src="<?php echo base_url();?>assets/img/" class="img-fluid" alt="" width="500px">
 			</div>
 		</div>
 	</div>
