@@ -1,7 +1,12 @@
 <div class="d-flex align-items-center justify-content-between">
   <a href="<?php echo base_url();?>" class="logo d-flex align-items-center">
+<<<<<<< HEAD
     <img src="<?php echo base_url();?>assets/img/logo2.png" alt="">
     <span class="d-none d-lg-block">Budget Tracker</span>
+=======
+    <img src="<?php echo base_url();?>assets/img/logo.png" alt="">
+    <span class="d-none d-sm-block">Budget Tracker</span>
+>>>>>>> 615caf4777c1d95e0f85370a572e0db390201af9
   </a>
   <i class="bi bi-list toggle-sidebar-btn"></i>
 </div><!-- End Logo -->
@@ -46,7 +51,7 @@
 
       <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
         <img style="background-color: #f6f9ff;" src="<?php echo base_url();?>assets/img/profile-img.png" alt="Profile" class="rounded-circle">
-        <span class="d-none d-md-block dropdown-toggle ps-2">Syukur Iman A.</span>
+        <span class="d-none d-md-block dropdown-toggle ps-2"><?php echo $name ?></span>
       </a><!-- End Profile Iamge Icon -->
 
       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
